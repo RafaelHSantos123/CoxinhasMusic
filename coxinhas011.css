@@ -1,0 +1,192 @@
+body{
+    background-image: url(Notas\ Musicais\ em\ Gradiente\ Vibrante.png);
+    background-color: #340474;
+    color: #ffffff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+
+}
+ul{
+    background-color: #ff9306;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+
+a{
+    color: #ec7514;
+    background-color:#ffe606;;
+    text-decoration: none;
+    padding: 3px;
+    border-radius: 5px;
+}
+.Musicas{
+    color: #000000;
+    background-color: #f1bb0a;
+    text-decoration: none;
+}
+
+header{
+     background-image: url('Notas\ musicais\ em\ fundo\ gradiente.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 305px; 
+            color: white; 
+            border-radius: 10px;
+
+}
+
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #fd3300;
+    margin-left: 0;
+    justify-items: start;
+    align-self: start;
+    
+}
+
+h1{
+    text-align: center;
+}
+.centro {
+    text-align: center;
+
+}
+hr {
+    border-color: #fdec00;
+    border-style: groove;
+    border-radius: 10px;
+    
+}
+
+footer button{
+    width:5%;
+    height: 5%;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #ffe606;
+    border: 2px solid #fd3300;
+
+}
+
+footer{
+    
+    background-color:#ec7514;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    bottom: 0%;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.esquerdo, .direita{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+
+
+}
+.esquerdo{
+    background-color: #4b0503;
+    align-items:flex-start;
+    justify-content: flex-start;
+    text-align: left;
+    border: 2px solid #8f3c04;
+    border-radius: 10%;
+    align-self: start;
+
+}
+.direita {
+    background-color: #4b0503;
+    text-align: center;
+    justify-content: flex-end;
+    border: 2px solid #8f3c04 ;
+    border-radius:10%;
+    justify-items: flex-start;
+    padding-top: 0;
+    margin-top: 0;
+    font-size: 25px;
+    
+}
+
+nav{
+ bottom: 5%;
+ border: #f7b24c;
+}
+
+.bah{
+    border-bottom: 0px solid red;
+    padding-right: 200px;
+    margin: 20px;
+
+}
+.Bon{
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    border: 2px solid #fd3300;
+
+}
+
+ol {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    border: #f74600;
+    color: black;
+
+}
+.item {
+    display: flex; 
+    align-items: center; 
+    gap: 10px; 
+    margin-bottom: 10px; 
+    padding: 10px 0 ;
+    border-bottom: 2px solid #f70000;
+}
+.bah:nth-child(1) .item {
+    background-color: #f1bb0a;  
+    padding: 10px;              
+    border-radius: 8px;      
+    width: 500px;
+}
+.bah:nth-child(2) .item {
+    background-color: #f1bb0a;  
+    padding: 10px;              
+    border-radius: 8px;         
+}
+.bah:nth-child(3) .item {
+    background-color: #f1bb0a;  
+    padding: 10px;              
+    border-radius: 8px;         
+}
+.bah:nth-child(1) .direita {
+    background-color: #f1bb0a;  
+    padding: 10px;              
+    border-radius: 8px;   
+}
+article{
+    text-align: center;
+    width: 300px;
+    border: 2px solid #8f3c04;
+    border-radius: 20px;
+    background-color: #4b0503;
+
+}
+.sla{
+    text-decoration: none;
+    background-color: #4b0503;
+}
